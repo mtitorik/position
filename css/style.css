@@ -1,0 +1,40 @@
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	min-height: 700px;
+	border: 2px solid black;
+	position: relative;
+}
+.box{
+	width: 50px;
+	height: 50px;
+}
+.b1, .b2, .b3, .b4, .b5{
+	position: absolute;
+}
+.b1{
+		background-color: red;
+		top: 0;
+		left: 0;
+}
+.b2{
+		background-color: blue;
+		top: 0;
+		right: 0;
+}
+.b3{
+		background-color: yellow;
+		bottom: 0;
+		left: 0;
+}
+.b4{
+		background-color: green;
+		bottom: 0;
+		right: 0;
+}
+.b5{
+		background-color: black;
+		left: 0;
+		right: 0;
+		margin: 325px auto;
+}
